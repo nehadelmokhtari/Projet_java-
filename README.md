@@ -17,7 +17,7 @@
 
 ## 📖 Description
 Application Java inspirée du jeu *Plants vs Zombies, utilisant **Spring JDBC* pour la gestion de la base de données.  
-L'objectif est de reproduire une mécanique de jeu stratégique entre plantes et zombies, avec une structure backend propre et scalable.
+L'objectif est de reproduire une mécanique de jeu stratégique entre plantes et zombies.
 
 ---
 

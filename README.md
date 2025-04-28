@@ -25,14 +25,16 @@ L'objectif est de reproduire une mécanique de jeu stratégique entre plantes et
 - Java JDK 17 ou supérieur
 - MySQL Server
 - Apache Maven
----
+
+
 ## Configuration Base de données
-1. Créer une base de données MySQL nommée pvz
+1. Créer une base de données MySQL nommée `pvz`
 2. Créer un utilisateur MySQL :
-   sql
+   ```sql
    CREATE USER 'epf'@'localhost' IDENTIFIED BY 'admin';
    GRANT ALL PRIVILEGES ON pvz.* TO 'epf'@'localhost';
    FLUSH PRIVILEGES;
+   ```
    
 ## Installation
 1. Cloner le projet
